@@ -136,7 +136,7 @@ const authController = {
                 subject: 'Password Reset Link',
                 text: `You are receiving this email because you (or someone else) has requested the reset of the password for your account.\n\n`
                     + `Please click on the following link, or paste this into your browser to complete the process:\n\n`
-                    + `http://localhost:3000/changepassword/${resetToken}\n\n`
+                    + `https://sampleproject-ten.vercel.app/changepassword/${resetToken}\n\n`
                     + `If you did not request this, please ignore this email and your password will remain unchanged.\n`,
             };
 
